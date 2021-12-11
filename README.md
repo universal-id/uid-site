@@ -9,11 +9,11 @@ Following are some of the website's aspects and properties:
 - Content: Informational and promotional
 - Audience: Consumers, early adopters, potential partners, potential community members, potential developers
 - Address: <https://universal.id>
-- Source: [universal-identity-site](https://github.com/nimakam/universal-identity-site)
+- Source: [universal-identity-site](https://github.com/universal-id/uid-site)
 - Links
   - 🐦 Twitter: [@universalidhq](https://twitter.com/universalidhq)
   - Ⓜ️ Medium: [Universal Identity](https://medium.com/universal-identity)
-  - 🐙 GitHub: THIS SITE - [universal-identity](https://github.com/nimakam/universal-identity)
+  - 🐙 GitHub: THIS SITE - [universal-id](https://github.com/universal-id)
   - 🗺 Industry map: <https://map.universal.id>
 - Pages
   - Main: <https://universal.id>
@@ -23,4 +23,4 @@ Following are some of the website's aspects and properties:
   - About us: <https://universal.id/about-us>
   - Roadmap: <https://universal.id/roadmap>
 
-See our main hub GitHub repostiry, [universal-identity](https://github.com/nimakam/universal-identity) for all our audiences and web interfaces.
+See our main hub GitHub repostiry, [universal-identity](https://github.com/universal-id/uid) for all our audiences and web interfaces.
