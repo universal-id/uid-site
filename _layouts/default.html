@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    
+    <div style="display:none;">page.title: {{page.title}}</div>
+
+    {%- include header.html -%}
+
+    {%- if page.layout == "home" -%}
+
+    <div class="cover">
+      <div class="cover-title">
+        Building the internet's native identity layer.
+      </div>
+      <div style="text-align: -webkit-center;">
+        <div class="cover-description">
+          We are a pre-seed non-profit working to enhance everyone's digital lives through interoperability, privacy, security, and consumer choice.
+        </div>
+      </div>
+      <div class="cover-action" style="text-align: -webkit-center;">
+        <a href="https://twitter.com/universalidhq">
+          <img src="assets/images/action-twitter-white.png" alt="Message us on Twitter">
+        </a>
+      </div>
+      <div style="text-align: -webkit-center;">
+        <div class="cover-description">
+          Help us, and the community, map the digital identity industry.
+        </div>
+      </div>
+      <div class="cover-action" style="text-align: -webkit-center;">
+        <a href="https://map.universal.id">
+          <img src="assets/images/action-industry-map-white.png" alt="Help map the industry">
+        </a>
+      </div>
+    </div>
+
+    {%- endif -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
